@@ -1,3 +1,3 @@
-# Section 1: Getting Started - 1. Course Introduction
-- We're going to build a project throughout the course.
+# 2. What is Angular?
+- Angular is a JavaScript Framework which allows you to create reactive Single-Page-Applications (SPAs).
 - 
