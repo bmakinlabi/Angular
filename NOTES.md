@@ -1,5 +1,13 @@
-# 10. What is TypeScript?
-- More features than vanilla JS (e.g. Types, Classes, Interfaces, ...)
-- It doesn't run in the browser. Compiled to JS in the end.
-- Angular is meant to be used with TypeScript.
-- You should be able to easily pick it up as you use it.
+# 11. A Basic Project Setup using Bootstrap for Styling
+- We often start with an empty project in the `app.component.html`. We clear everything we have there after installation.
+- You could start a new project with `ng new` if you want to.
+- Install Bootstrap so that we don't write all the CSS from scratch. That sounds cool to me.
+- `control + c`
+- `npm install --save bootstrap@3`
+- To use the Bootstrap framework, we have to make `Angular` aware of it.
+- Go to `angular.json`
+- Go to the `"styles":` in the `"build"` section inside there.
+- Add it prior to that `"src/styles.css"` so that we can overide it.
+- `"node_modules/bootstrap/dist/css/bootstrap.min.css"`
+- `ng serve`
+- To confirm if Bootstrap was installed, load the page and go to `Elements` in the Chrome Inspector. In the head section, you should go to the styles section and you should find Bootstrap there. 
