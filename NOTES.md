@@ -1,9 +1,7 @@
-# Join our Online Learning Community
-
-As a student of this course you also get free access to our “Academind Community” on Discord: https://discord.gg/gxvEWGU
-
-There, you can find like-minded people, discuss issues, help each other, share progress, successes and ideas and simply have a good time!
-
-I believe that you learn the most if you don’t learn alone but find learning partners and other people with similar interests. Our community is a great place for this - it’s the perfect complimentary resource for this course.
-
-Joining it is of course free and 100% optional.
+# 4. Angular vs Angular 2 vs Angular 9
+- AngularJS (Angular 1) was released years ago but it had a lot of performance issues.
+- The Angular version you're learning in this course is totally different from that one.
+- The had to completely rewrite Angular. Now, the new main version is simply Angular 2
+- It was released in 2016.
+- We're now working with Angular 9. Since 2, there are just releasing new updates. Nothing special.
+- New version comes out every 6 months
