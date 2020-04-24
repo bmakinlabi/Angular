@@ -1,7 +1,5 @@
-# 9. How to get the Most out of the Course
-- Watch the videos
-- Do the assignments
-- Do the course project
-- Ask in Q&A, but...
-- ...also answer in Q&A!
-- Always read the Docs + Google. The documentation is your friend
+# 10. What is TypeScript?
+- More features than vanilla JS (e.g. Types, Classes, Interfaces, ...)
+- It doesn't run in the browser. Compiled to JS in the end.
+- Angular is meant to be used with TypeScript.
+- You should be able to easily pick it up as you use it.
