@@ -1,6 +1,4 @@
-# 14. How an Angular App gets Loaded and Started
-- Instructor explains the selector in the `app.component.ts` file. That selector is `app-root` the exact same thing in the component inside the index.html file.
-- Instructor explaining `main.ts` and the files in the `src/app` expecially looking at that `app.module.ts`
-- Learned about the `bootstrap` thing.
-- I also noticed that imports like `FormsModule`, `HttpModule` were inside the instructor's screen and not on mine. I may have to put them there if things don't work well later.
-- This lecture really explains how `Angular` works looking at the files how to  move from each other and work with each  other. Really nice. 
+# 15. Components are Important!
+- Wow, I just did a quick test and realized that by putting loading between `app-root` like this `<app-root>loading...<app-root>` it actually shows before the real component replaces it. I never knew that. Just tested it. Cool. This happened in the `index.html` file to keep that in mind. 
+- Author: Keep in mind: Angular in the end is a JS framework changing your DOM('HTML') at runtime!
+- The instructor explained about components. 
