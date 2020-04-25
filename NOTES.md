@@ -1,6 +1,7 @@
-# 28. Event Binding
-- Using `on` as the first word in your method means that you mean some event will call it. Well, it'll still work if you don't use `on` first.
-- It's just there. Kind of something Angular developers do.
-- `()` means that we're using event binding. 
-- Note that you shouldn't put too much logic or code into your template.
-- We used `(click)`. Wow that's cool. In React, it's called `onClick`
+# Bindable Properties and Events
+
+How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to console.log()  the element you're interested in to see which properties and events it offers.
+
+Important: For events, you don't bind to onclick but only to click (=> (click)).
+
+The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for YOUR_ELEMENT properties  or YOUR_ELEMENT events  should yield nice results.
