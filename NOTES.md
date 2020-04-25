@@ -1,8 +1,7 @@
-# 19. Creating Components with the CLI & Nesting Components
-- You can automatically generate a component (an alternative to creating a component manually) by going to the Terminal. Leave the current running terminal that's compiling and displaying the app.
-- Then you should type `ng generate component servers`
-- You can also use this shortcut:
-- `ng g c servers`
-- It's going to generate a n new folder with those necessary files for component inside the `src/app` folder.
-- It'll generate the `css`, `ts`, `html` and `spec.ts` file which is used for testing. We removed the `spec.ts` file. 
-- Now, you see that we created nested components. 
+# 20. Working with Component Templates
+- Instead of using an external template file, we can also use an inline template. Which means we define the `html` code in the TypeScript code.
+- If you don't have much `html` code, using an inline template like this might be fine.
+- If you have more than three lines of HTML code, then you probably need the `html` file back. 
+- Templates must be included.
+- You'll learn another way of adding `selector` later.
+- Styles are there if you want to use them. 
