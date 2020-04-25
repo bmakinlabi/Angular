@@ -1,5 +1,11 @@
-# 21. Working with Component Styles
-- Note that we're using the Bootstrap framework here. Nothing fancy. We wanted to do that.
-- We tested using the CSS.
-- We can add multiple stylesheets. YOu can see that it's an array.
-- We can also write inline styles. You can see the way Max did it.
+# 22. Fully Understanding the Component Selector
+- You can't have selectors with the same name.
+- You don't have to use this type of selector.
+- Another way to do. Now Angular selects it by attributes
+- That happened for this, which is now commented out:
+```ts
+@Component({
+  selector: '[app-servers]',
+```
+- There are three ways I can select components now using the `selector`
+- But the first one, which we've been using is the most popular. 
