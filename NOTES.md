@@ -1,4 +1,7 @@
-# 15. Components are Important!
-- Wow, I just did a quick test and realized that by putting loading between `app-root` like this `<app-root>loading...<app-root>` it actually shows before the real component replaces it. I never knew that. Just tested it. Cool. This happened in the `index.html` file to keep that in mind. 
-- Author: Keep in mind: Angular in the end is a JS framework changing your DOM('HTML') at runtime!
-- The instructor explained about components. 
+# 16. Creating a New Component
+- The app component (it's files like html and ts) are the root component of our app).
+- Note that when naming your component do it with the name first and `.` next and then `component` and the `ts` file extension. 
+- Look at the naming convention too. Must include the name of the component first and followed by `component`. No camelCase.
+- Learned about `@` decorator a feature of TS. Need to learn more about it.
+- Note that you prefix your selector with `app` first before the name.
+- I understand the first main things when creating a new component in Angular. 
