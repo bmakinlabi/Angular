@@ -1,4 +1,2 @@
-# 32. Two-Way-Databinding
-- **Important: To be able to use 'ngModel`, the FormsModule (from @angular/forms) needs to be added to your imports [] array in the AppModule (should be there by default in a CLI project)!**
-- One way binding will  overrule two-way binding, which means  if  you change the same variable (its value) from one way binding, it'll  update all the places where the variable is being used. But if you go to where you use two-way binding, it'll only update where the two-way binding is being used. It  won't touch the one-way binding place. Wow. Really cool. 
-- Of course, you can use two-way binding to prepopulate the values in the input place as in this case. 
+# 33. Combining all Forms of Databinding
+- Here, we combined everything together. It was really fun. Loving this Angular course. 
