@@ -1,5 +1,6 @@
-# 38. Styling Elements Dynamically with ngStyle
-- Let's talk about attribute directives
-- **Unlike structural directives, attribute directives don't add or remove elements. They only change the element they were placed on**
-- `ngStyle` is a built-in directive. You can recognize it from the `ng` that it begins with.
-- You can use `background-color` which is normal. Or you use `backgroundColor` which is more of the JS style.
+# 39. Applying CSS Classes Dynamically with ngClass
+- Of course `ngStyle` and `ngClass` are related.
+- `ngStyle` lets us change the style
+- `ngClass` lets us change the class.
+- Write the `{online:}` and if you have a dash, you have to wrap with a single quotation mark like `{'online'}` in the `server.component.html` of course. Wow, I think I'll always go with `{'online'}` format. It's consistent.
+- I quickly changed to `{online-world}` and it didn't work. But `{'online-world'}` worked. And that means quotation mark is a must for all when doing this. 
