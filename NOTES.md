@@ -1,6 +1,6 @@
-# 39. Applying CSS Classes Dynamically with ngClass
-- Of course `ngStyle` and `ngClass` are related.
-- `ngStyle` lets us change the style
-- `ngClass` lets us change the class.
-- Write the `{online:}` and if you have a dash, you have to wrap with a single quotation mark like `{'online'}` in the `server.component.html` of course. Wow, I think I'll always go with `{'online'}` format. It's consistent.
-- I quickly changed to `{online-world}` and it didn't work. But `{'online-world'}` worked. And that means quotation mark is a must for all when doing this. 
+# 40. Outputting Lists with ngFor
+- `*ngFor` is also a structural directive. It changes the DOM. That's why we need the `*` in front of it.
+- Note that this: `let server of servers` is like looping in the servers. 
+- This is an important lecture I must keep in mind. Wow.
+- I'm now creating more with just a single click on the button. It's so easy. So cool. I'm creating a list of <app-server> without writing each one out. It's now dynamic. So nice. 
+- It's still static though because we can't pass the servername to that component. We'll learn that later in the next section. 
