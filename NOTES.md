@@ -1,2 +1,2 @@
-# 33. Combining all Forms of Databinding
-- Here, we combined everything together. It was really fun. Loving this Angular course. 
+# 34. Assignment 2 Solution (Initial Commit)
+- Initial Commit
