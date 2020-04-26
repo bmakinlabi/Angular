@@ -1,11 +1,7 @@
-# 30. Passing and Using Data with Event Binding
-- I spent about 30 minutes addressing the complaints from TSLint. It seems something was wrong. And I just had to do some things to make the linting errors just go away. I know I'm doing the right thing following the instructor. I need to learn more about this TSLinting thing.
-- Let's move forward.
-- Wow, here's the list of all the events you need. Note that the `()` in Angular is kind of using the `addEventListener` thing. I can see all the events here. https://developer.mozilla.org/en-US/docs/Web/Events
-- So, amazing.
-- You learned about `$event` it's a reserved word in Angular. It gives us access to the event data.
-- We console.logged the information the event gives us and went to the target where we found the value of what we type. So easy. 
-- Now, I learned how much data we can get from the `event`. In fact, we can get all the information about that particular event that was fired. It feels so great to know this right now.
-- We help TypeScript know the type of the event by doing this: `this.serverName = (event.target as HTMLInputElement).value;`. It's worth learning more about  this  through Google searches.
-- I have here in mind: https://stackoverflow.com/questions/44321326/property-value-does-not-exist-on-type-eventtarget-in-typescript
-- Wow, now when I'm typing, it appears in the paragraph below the input. Thisis really cool. The process is totally different from the one we do in React. Wow. 
+# Important: FormsModule is Required for Two-Way-Binding!
+
+Important: For Two-Way-Binding (covered in the next lecture) to work, you need to enable the ngModel  directive. This is done by adding the FormsModule  to the imports[]  array in the AppModule.
+
+You then also need to add the import from @angular/forms  in the app.module.ts file:
+
+import { FormsModule } from '@angular/forms'; 
