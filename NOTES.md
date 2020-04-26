@@ -1,7 +1,4 @@
-# Important: FormsModule is Required for Two-Way-Binding!
-
-Important: For Two-Way-Binding (covered in the next lecture) to work, you need to enable the ngModel  directive. This is done by adding the FormsModule  to the imports[]  array in the AppModule.
-
-You then also need to add the import from @angular/forms  in the app.module.ts file:
-
-import { FormsModule } from '@angular/forms'; 
+# 32. Two-Way-Databinding
+- **Important: To be able to use 'ngModel`, the FormsModule (from @angular/forms) needs to be added to your imports [] array in the AppModule (should be there by default in a CLI project)!**
+- One way binding will  overrule two-way binding, which means  if  you change the same variable (its value) from one way binding, it'll  update all the places where the variable is being used. But if you go to where you use two-way binding, it'll only update where the two-way binding is being used. It  won't touch the one-way binding place. Wow. Really cool. 
+- Of course, you can use two-way binding to prepopulate the values in the input place as in this case. 
