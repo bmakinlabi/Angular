@@ -65,8 +65,7 @@
     ],
     "no-empty": false,
     "no-inferrable-types": [
-      true,
-      "ignore-params"
+      false
     ],
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
@@ -144,18 +143,5 @@
   },
   "rulesDirectory": [
     "codelyzer"
-  ],
-  {
-    "compilerOptions": {
-      "plugins": [
-        {
-          "name": "typescript-tslint-plugin",
-          "alwaysShowRuleFailuresAsWarnings": false,
-          "ignoreDefinitionFiles": true,
-          "configFile": "../tslint.json",
-          "suppressWhileTypeErrorsPresent": false
-        }
-      ]
-    }
-  }
+  ]
 }
