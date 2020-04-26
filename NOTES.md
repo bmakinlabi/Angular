@@ -1,14 +1,5 @@
-# 37. Enhancing ngIf with an Else Condition
-- `#` is a local reference on the element. Instructor will talk about it later. See it as a marker. 
-- `ng-template` is a component directive. Use it to mark places in the DOM. 
-- Wow. That comes up and it gets replace after clicking the button. This is so cool.
-- We deleted it. But it's so nice that I'm adding it below here:
-```html
-<p *ngIf="serverCreated; else noServer">Server was created, server name is {{ serverName }}</p>
-<ng-template #noServer>
-    <p>No server was created!</p>
-</ng-template>
-<app-server></app-server>
-```
-- Study it. 
--  
+# 38. Styling Elements Dynamically with ngStyle
+- Let's talk about attribute directives
+- **Unlike structural directives, attribute directives don't add or remove elements. They only change the element they were placed on**
+- `ngStyle` is a built-in directive. You can recognize it from the `ng` that it begins with.
+- You can use `background-color` which is normal. Or you use `backgroundColor` which is more of the JS style.
