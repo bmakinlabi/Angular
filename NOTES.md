@@ -1,7 +1,9 @@
-# 44. Planning the App
-- The first step when building a app is to plan the structure of the app. Like the components you're going to need
-- We talked about the features we're going to build in this app
-- Planning the components that'll need in the app
-- Another last thing to think about is which modal we'll use. By saying "modal", the instructor means which "data."
-- You should watch this lecture to see how the instructor illustrated the app while planning. That could give you more insights into how Angular works.
-- Although, you'll learn more about this later
+# Installing Bootstrap Correctly
+
+In the next lecture, we set up the course project. For that, we'll install the Bootstrap CSS Framework.
+
+In this course, we use version 3 of the framework, install it via npm install --save bootstrap@3  => The @3  is important!
+
+Additionally, when using a project created with Angular CLI 6+ (check via ng -v ), you'll have an angular.json  file instead of an .angular-cli.json  file. In that file, you still need to add Bootstrap to the styles[]  array as shown in the next video, but the path should be node_modules/bootstrap/dist/css/bootstrap.min.css , NOT ../node_modules/bootstrap/dist/css/bootstrap.min.css . The leading ../  must not be included.
+
+Also see this lecture - I do show the complete setup process there: https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/t/lecture/6655614/
