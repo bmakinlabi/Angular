@@ -1,7 +1,4 @@
-# 53. Outputting a List of Recipes with ngFor
-- You can use string interpolation or property binding like when adding the `src` in the image. You can use property binding there in all instances where this can be possible.
-- `src="{{ recipe.imagePath }}"`
-- or
-- `[src]="recipe.imagePath"`
-- Wow, wow, wow. I can see how we output our list here and this is starting to become easy to understand for me. Still more to learn ahead.
-- 
+# 54. Displaying Recipe Details
+- Wow. We're now building up our component. They can't communicate with each other yet. You'll learn that later.
+- I can see that we're building something up here. HTML and CSS of course. But right now, we're using the Bootstrap CSS Framework to enable us just focus on the learning Angular.
+- I'm enjoying it. 
