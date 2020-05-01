@@ -1,2 +1,2 @@
-# 48. Using the Components
-- We've started using components. 
+# 49. Adding a Navigation Bar
+- Added some HTML code to the header. Working on the header. 
