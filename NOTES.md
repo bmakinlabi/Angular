@@ -1,28 +1,6 @@
-# Alternative Non-Collapsable Navigation Bar
-
-The way we added it, the Navbar will collapse on smaller screens. Since we didn't implement a Hamburger menu, that means that there's no way of accessing our links on smaller screens.
-
-You can either add such a menu on your own (see below), or you replace collapse navbar-collapse  with just navbar-default.
-
-Adding a Hamburger Menu:
-
-Alternatively, if you want to make the navigation bar responsive, please replace these lines in header.component.html:
-
-    <div class="navbar-header">
-      <a routerLink="/" class="navbar-brand">Recipe Book</a>
-    </div>
-    <div class="collapse navbar-collapse">
-
-with these lines:
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" (click)="collapsed = !collapsed">
-    	<span class="icon-bar" *ngFor="let iconBar of [1, 2, 3]"></span>
-      </button>
-      <a routerLink="/" class="navbar-brand">Recipe Book</a>
-    </div>
-    <div class="navbar-collapse" [class.collapse]="collapsed" (window:resize)="collapsed = true">
-
-and add this line to header.component.ts:
-
-    collapsed = true;
+# 51. Creating a "Recipe" Model
+- You should define how a recipe looks like because you're going to use it a lot. When we use it in any component, so that we're always talking about the same structure.
+- Because of this, you'll need to create a model. A modal is a typescript file. In the recipe folder, create `recipe.model.ts` file. Note that the `model` is optional but you  should be descriptive about what's inside a file.
+- Wow, I quickly disabled the TS warning that says file should end with a newline. Now I'm cool.
+- Now we've created a recipe model that we can use.
+- Let's use it in the next lecture. 
