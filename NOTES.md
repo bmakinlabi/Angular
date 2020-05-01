@@ -1,4 +1,14 @@
-# 46. Setting up the Application 
-- I installed Bootstrap correctly.
-- Then I ran `ng serve`
-- Our application is now set up. Time to start creating the components that we need.
+# 47. Creating the Components
+- The files are always slow to update changes. So, I searched for a solution and I'm now using this:
+- `sudo ng serve`
+- We can generate components automatically by running this
+- `ng g c recipes --skipTests true`
+- Note that `--skipTests true` is for preventing the testing file from being generated. We don't need that. (at least not yet.)
+- If we want to generate these new files in a sub-folder, which is what we're going to do next:
+- We can do it like this:
+- `ng g c recipes/recipe-list --skipTests true`
+- We also did this:
+- `ng g c recipes/recipe-detail --skipTests true`
+- We can also create a sub-folder inside another sub-folder
+- `ng g c recipes/recipe-list/recipe-item --skipTests true`
+- We also generated folders for shopping list. No need to write that too here.
