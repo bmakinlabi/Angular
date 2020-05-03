@@ -1,5 +1,7 @@
-# 67. Assigning an Alias to Custom Properties
-- Using an alias for the element.
-- Note that I had to turn off tslint of `no-input-rename` and now the line isn't giving me an error again.
-- Very cool to me. 
-- Note that `element` would no longer work. Only `srvElement` would work.
+# 68. Binding to Custom Events
+- Learned `EventEmitter`
+- Wow Angular is steep. Not as simple as React. What's all these?
+- This is a lecture I'll come back to many times in the future. 
+- This is a key lecture in binding custom events between components.
+- Wow. It looks cool to me. 
+- Learning Angular. 
