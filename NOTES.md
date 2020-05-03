@@ -1,10 +1,14 @@
-# 77. Understanding the Component Lifecycle
-- `ngOnChanges` is right at the start when a new component is create. Executes multiple times. Called after a bound input property changes
-- `ngOnInIt` - Called once the component is initialized. That doesn't mean we can see it yet.
-- `ngDoCheck` - Called during change detection run.
-- `ngAfterContentInit` - Called after content (ng-content) has been projected into view.
-- `ngAfterContentChecked` - Called every time the projected content has been checked.
-- `ngAfterViewInit` - Called after the component's view (and child views) has been initialized.
-- `ngAfterViewChecked` - Called every time the view (and child views) have been checked.
-- `ngOnDestroy` - Called once the component is about to be destroyed
-- Reference page for learning Lifecycle Hooks: https://angular.io/guide/lifecycle-hooks
+# 78. Seeing Lifecycle Hooks in Action
+- We're seeing Lifecycle Hooks in action. It's getting interesting.
+- It's a good practice to `implement` the lifecycle interface on the class. We did that here. Using the method alone would work. But it's best you implement the interface.
+- `ngOnChanges` is the only Lifecycle hook that receives an argument. 
+-  Wow. `ngOnChanges` gives us some things we can use. We could see what's changed and the current value and even see if there was a previous value and see if `firstChange` of it is true or false. Great information there. 
+- Wow, the instructor quickly did something to show how to use `ngOnChanges` and it's really really cool. We can see some things. 
+- `ngDoCheck` gets called whenever Angular detects any changes. Note that when in development mode, it gets called twice when you start the app. It doesn't behave like that in production.
+- Don't use it too much as it could cause performance issues. It's there to tell you that you can detect changes.
+- `ngAfterContentInit` is called once. It's called after `ngDoCheck`. It's called once after Angular has initialized the content of the component. 
+- `ngAfterContentChecked` - invoked immediately after the default change detector has completed checking all of the directive's content. Triggered after `ngAfterContentInit` and then after `ngDoCheck`
+- `AfterViewInit` - Triggered after `ngAfterContentChecked` - the first time. Only once. 
+- `AfterViewChecked` - Triggered after `ngAfterViewChecked`
+- `ngOnDestroy` - Triggered when destorying the component or service or whatever.  Use for any custom cleanup that needs to occur when the instance is destroyed.
+- You rarely have to use all of them. Some of them can be very helpful for your application. 
