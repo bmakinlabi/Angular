@@ -1,16 +1,7 @@
-# 61. Debugging Code in the Browser Using Sourcemaps
-- Sometimes you don't get an error message. 
-- But the thing may not be working as you expect. 
-- In Chrome, go to `Sources`
-- Right there, you'll find all our script bundles.
-- Check the `main.bundle.js`
-- Find the code similar to your logic code and find the line responsible for what you really want to do that isn't working properly.
-- Place a breakpoint there. 
-- Something will change.
-- It'll jump to the component typescript file itself.
-- We could debug the errors there, but there's a problem. If the app is big, it'll be hard, finding the exact code we're looking for in `main.bundle.js`
-- So what can we do?
-- We can directly access our TypeScript file instead of going to `main.bundle.js` that will save us time and let us do what we want to do quickly.  
-- Go to `webpack` in the explorer right there in the `Sources`
-- After clicking `webpack`, open the `.` folder
-- Then click `src/app`. Then as you're already familiar with the file structure of Angular. You should find your TypeScript file there. 
+# 62. Using Augury to Dive into Angular Apps
+- This tool: Angular Augury. Googled it.
+- https://augury.rangle.io/
+- Click install. It'll take you to the Chrome store. It's a Chrome extension. 
+- I added it.
+- It helps you understand your app at run time.
+- Wow. Learned a bit of some things to help debug the app. It's a cool nice tool to have for debugging. I look forward to using it of course. 
