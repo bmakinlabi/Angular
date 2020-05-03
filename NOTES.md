@@ -1,2 +1,2 @@
-# 59. Wrap Up & Next Steps
-- We're still continuing this project. More to learn.
+# Section 4: Debugging - 60. Understanding Angular Error Messages (Initial Commit)
+- Initial Commit
