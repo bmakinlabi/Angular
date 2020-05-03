@@ -1,2 +1,2 @@
-# 58. Adding a Shopping List Edit Section
-- We're using form here, but keep in mind that we're not submitting it to the server yet. We'll fill it with more life later. We'll learn more about forms in the form section. 
+# 59. Wrap Up & Next Steps
+- We're still continuing this project. More to learn.
