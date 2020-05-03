@@ -1,6 +1,5 @@
-# 66. Binding to Custom Properties
-- All properties of a component are only accessible inside the component. Not from outside. And that's a good thing.
-- You have to be explicit about which property you want to expose
-- If you want a parent component to be able to bind to its child property, you need to add something to that property. You need to add a decorator. 
-- We use `@Input` decorator to expose it. So any parent hosting `element` can now bind to element.
-- 
+# 67. Assigning an Alias to Custom Properties
+- Using an alias for the element.
+- Note that I had to turn off tslint of `no-input-rename` and now the line isn't giving me an error again.
+- Very cool to me. 
+- Note that `element` would no longer work. Only `srvElement` would work.
