@@ -1,7 +1,3 @@
-# 68. Binding to Custom Events
-- Learned `EventEmitter`
-- Wow Angular is steep. Not as simple as React. What's all these?
-- This is a lecture I'll come back to many times in the future. 
-- This is a key lecture in binding custom events between components.
-- Wow. It looks cool to me. 
-- Learning Angular. 
+# 69. Assigning an Alias to Custom Events
+- Creating aliases.
+- Also took care of the tslinting stuff as I did for input aliases. Wow. I'm understanding this thing.
