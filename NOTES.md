@@ -1,4 +1,2 @@
-# 57. Creating and Outputting the Shopping List
-- Wow, we're outputting data now of course. Using `*ngFor`
-- Seems like I'll have to get to using that a lot in Angular. Look forward to it.
-- 
+# 58. Adding a Shopping List Edit Section
+- We're using form here, but keep in mind that we're not submitting it to the server yet. We'll fill it with more life later. We'll learn more about forms in the form section. 
