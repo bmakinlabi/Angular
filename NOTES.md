@@ -1,4 +1,15 @@
-# 79. Lifecycle Hooks and Template Access
-- You can see how this Lifecycle Hooks work.
-- Yeah. That thing didn't render on `ngOnInIt` but it didn't later in the `ngAfterViewInit`.
-- This is really cool.
+# @ContentChild() in Angular 8+
+
+In Angular 8+, the @ContentChild() syntax which you'll see in the next lecture needs to be changed slightly:
+
+Instead of:
+
+    @ContentChild('contentParagraph') paragraph: ElementRef;
+
+use
+
+    @ContentChild('contentParagraph', {static: true}) paragraph: ElementRef;
+
+The same change (add { static: true } as a second argument) needs to be applied to ALL usages of @ContentChild() if you use the selected element inside of ngOnInit (as we do it in the lectures).
+
+If you DON'T use the selected element in ngOnInit, set static: false instead.
